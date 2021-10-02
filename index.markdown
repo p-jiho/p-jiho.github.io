@@ -12,12 +12,10 @@ author :
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
   </head>
   <body>
     <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
+      <a href="/post">시계열</a>
     </nav>
     <h1>{{ page.title }}</h1>
     <section>
