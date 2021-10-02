@@ -9,3 +9,20 @@ author :
  email : whfhrs3260@daum.net
  github : p-jiho
 ---
+
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+  </body>
+</html>
