@@ -9,8 +9,7 @@ author :
  email : whfhrs3260@daum.net
  github : p-jiho
 ---
-
-<!doctype html>
+<html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
