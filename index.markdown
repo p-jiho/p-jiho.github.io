@@ -8,6 +8,4 @@ author :
  name : Park Jiho
  email : whfhrs3260@daum.net
  github : p-jiho
- 
-post : [Github Blog]
 ---
