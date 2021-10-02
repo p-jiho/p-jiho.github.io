@@ -15,9 +15,8 @@ author :
   </head>
   <body>
     <nav>
-      <a href="/post">시계열</a>
+      <a href="/_post/post">시계열</a>
     </nav>
-    <h1>{{ page.title }}</h1>
     <section>
       {{ content }}
     </section>
