@@ -2,8 +2,10 @@
 layout : post
 title : 시계열분석 - 0. 개요
 date: 2021-10-03
-catagories : time-series
-tags : time-series
+catagories : 
+  - time-series
+tags : 
+  - time-series
 last_modified_at: 2021-10-03
 ---
 
