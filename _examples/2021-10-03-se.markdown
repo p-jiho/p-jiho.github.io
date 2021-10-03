@@ -2,7 +2,7 @@
 layout : example
 title : "example"
 excerpt : "예시입니다."
-permalink : /post
+permalink : /example
 toc : true
 toc_sticky : true
 
