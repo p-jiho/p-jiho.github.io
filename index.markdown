@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title : Jiho Blog
 author : 
  name : Park Jiho
  email : whfhrs3260@daum.net
@@ -15,7 +14,7 @@ author :
   </head>
   <body>
     <nav>
-      <a href="/_post/post">시계열</a>
+      <a href="/post">시계열</a>
     </nav>
     <section>
       {{ content }}
