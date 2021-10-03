@@ -2,8 +2,9 @@
 layout : post
 title : 시계열분석 - 0. 개요
 date: 2021-10-03
-catagory : time-series
-tag : time-series
+catagories : time-series
+tags : time-series
+last_modified_at: 2021-10-03
 ---
 
 통계학에서 가장 중요한 것은 데이터라고 생각한다.
