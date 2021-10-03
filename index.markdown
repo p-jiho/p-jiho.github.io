@@ -8,13 +8,3 @@ author :
  email : whfhrs3260@daum.net
  github : p-jiho
 ---
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <nav>
-      <a href="/examples">시계열</a>
-    </nav>
-  </body>
-</html>
