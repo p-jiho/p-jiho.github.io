@@ -16,8 +16,5 @@ author :
     <nav>
       <a href="/example">시계열</a>
     </nav>
-    <section>
-      {{ content }}
-    </section>
   </body>
 </html>
