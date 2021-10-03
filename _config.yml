@@ -33,7 +33,7 @@ plugins:
 
 defaults :
   - scope : 
-    path : _example
+    path : _examples
     layout : example
 # Exclude from processing.
 # The following items will not be processed, by default.
