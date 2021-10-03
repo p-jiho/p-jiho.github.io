@@ -14,7 +14,7 @@ author :
   </head>
   <body>
     <nav>
-      <a href="/example">시계열</a>
+      <a href="/examples">시계열</a>
     </nav>
   </body>
 </html>
