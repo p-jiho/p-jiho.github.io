@@ -49,7 +49,7 @@ last_modified_at: 2021-10-06
 - k 시차 후의 예측오차 : 현재 관측한 값 - k 시점 전에 현재를 예측한 값 = 
 <pre>
 $$
-\widehat{e}_{t} (k) = Z_{t+1}-\widehat{Z}_{t}(1) 
+\widehat{e}_{t}(k)=Z_{t+1}-\widehat{Z}_{t}(1) 
 $$
 </pre>
  ref)
