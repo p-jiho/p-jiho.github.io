@@ -1,1 +1,12 @@
 
+---
+layout : post
+title : 시계열분석 - 1. 시계열 자료
+date: 2021-10-06
+catagories : 
+  - time-series
+tags : 
+  - time-series
+last_modified_at: 2021-10-06
+---
+
