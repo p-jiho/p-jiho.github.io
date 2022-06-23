@@ -19,6 +19,8 @@ RBM은 심층 신경망 즉, DBN을 구성하는 요소로 사용이 된다.
 하지만 역전파 신경망은 시그모이드의 결과값이 출력값이지만, RBM은 확률분포를 이용한다.
 
 
+----
+
 ### RBM의 구조
 ![pic3](https://user-images.githubusercontent.com/76985302/175039703-c5ba6c84-e31d-43ff-8d9f-27ce75981f56.png)
 
