@@ -18,6 +18,7 @@ RBM은 심층 신경망 즉, DBN을 구성하는 요소로 사용이 된다.
 기존의 역전파 신경망과 같이 입력노드에 가중치를 곱한 후 시그노이드 함수를 적용해 은닉층의 값을 구한다.
 하지만 역전파 신경망은 시그모이드의 결과값이 출력값이지만, RBM은 확률분포를 이용한다.
 
+![CodeCogsEqn](https://user-images.githubusercontent.com/76985302/175479935-c2e1929b-990b-4309-a560-768768262f29.gif)
 
 ----
 
@@ -41,7 +42,11 @@ BM과 달리 RBM은 층간 연결이 사라진 것을 볼 수 있다.
 
 
 - 참고문헌
-https://koreapy.tistory.com/1223
-http://www.tcpschool.com/deeplearning/deep_algorithm3
-https://tbacking.com/2016/12/10/rbm-%EC%A0%9C%ED%95%9C%EB%90%9C-%EB%B3%BC%EC%B8%A0%EB%A7%8C-%EB%A8%B8%EC%8B%A0-%EC%9D%B4%ED%95%B4/
-https://angeloyeo.github.io/2020/10/02/RBM.html
+
+[https://koreapy.tistory.com/1223]
+
+[http://www.tcpschool.com/deeplearning/deep_algorithm3]
+
+[https://tbacking.com/2016/12/10/rbm-%EC%A0%9C%ED%95%9C%EB%90%9C-%EB%B3%BC%EC%B8%A0%EB%A7%8C-%EB%A8%B8%EC%8B%A0-%EC%9D%B4%ED%95%B4/]
+
+[https://angeloyeo.github.io/2020/10/02/RBM.html]
