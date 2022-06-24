@@ -9,7 +9,7 @@ tags :
 last_modified_at: 2022-06-22
 ---
 
-### RBM(Restricted Boltzmann Machine)
+## RBM(Restricted Boltzmann Machine)
 RBM은 볼츠만 머신에서 층간 연결을 없앤 모델이다.
 
 그러므로 가시층과 은닉층으로 이루어진 비지도학습 신경망 모델이다.
@@ -26,7 +26,7 @@ RBM은 심층 신경망 즉, DBN을 구성하는 요소로 사용이 된다. RBM
 <br></br><br></br>
 ----
 
-### RBM의 구조
+## RBM의 구조
 ![pic3](https://user-images.githubusercontent.com/76985302/175039703-c5ba6c84-e31d-43ff-8d9f-27ce75981f56.png)
 
 왼쪽은 볼츠만 머신이고, 오른쪽은 제한된 볼츠만 머신이다.
@@ -40,7 +40,7 @@ BM과 달리 RBM은 층간 연결이 사라진 것을 볼 수 있다.
 <br></br><br></br>
 ----
 
-### RBM의 학습
+## RBM의 학습
 
 ![RMB](https://user-images.githubusercontent.com/76985302/175485125-d945912a-744f-4fc8-9838-ffec1e36d76b.PNG)
 위 그림과 같이 가중치가 주어졌을때, 가시층으로부터 은닉층의 확률을 추정한다.
@@ -53,10 +53,11 @@ BM과 달리 RBM은 층간 연결이 사라진 것을 볼 수 있다.
 두 분포가 다른 부분을 "발산"이라고 한다.
 
 이 발산을 최소화하는 알고리즘이 최적의 알고리즘이다.
+
 <br></br><br></br>
 ----
 
-### RMB의 에너지
+## RMB의 에너지
 
 가시층과 은닉층에 따라서 에너지를 결정한다.
 
@@ -67,7 +68,7 @@ BM과 달리 RBM은 층간 연결이 사라진 것을 볼 수 있다.
 <br></br><br></br>
 ----
 
-### RBM의 가중치
+## RBM의 가중치
 
 가중치는 에너지를 최소화하는 방향으로 갱신이 된다.
 
@@ -86,7 +87,7 @@ BM과 달리 RBM은 층간 연결이 사라진 것을 볼 수 있다.
 <br></br><br></br>
 ----
 
-### RBM의 CD
+## RBM의 CD
 
 Contrastive Divergence는 가시층의 데이터로 은닉층을 샘플링하고 그 데이터로 다시 가시층의 데이터를 예측하는 과정에서 그 차이를 보는 것이다.
 
