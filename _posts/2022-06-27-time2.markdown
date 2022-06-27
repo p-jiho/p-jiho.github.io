@@ -1,0 +1,42 @@
+---
+layout : post
+title : CNN과 RNN
+date: 2022-06-27
+catagories : 
+  - Deep learning
+tags : 
+  - Deep learning
+last_modified_at: 2022-06-27
+---
+
+## CNN이란?
+CNN은 Convolutional Neural Network의 약자이다.
+
+즉, 합성곱 연산을 하는 신경망이다.
+
+이미지 데이터에 딥러닝을 적용할 수 있다.
+
+하지만 DNN을 이용하여 이미지를 일자로 펼쳐서 입력을 한다면 이미지의 해상도가 높은 경우 파라미터의 수가 너무 많아진다.
+
+이로인해 학습속도 저하, 수렴여부 불분명 등 문제들이 생긴다.
+
+또한, 이미지의 기하학적인 공간적 정보를 유지할 수가 없다.
+
+일자로 펼친다면 같은 이미지이지만 크기나 모양이 조금만 달라도 다른 이미지가 되어버리므로 공간적 정보를 유지하는 것이 중요하다.
+
+CNN의 주요한 특정은 이미지 전체를 보기보다는 부분부분을 보고, 주변 픽셀들과의 연관성의 살리는 것이다.
+
+이로인해 위치가 달라도 크기가 달라도 같은 이미지로 판별할 수 있다.
+
+
+<br><br>
+
+---
+- 참고문헌
+
+<https://sonsnotation.blogspot.com/2020/11/7-convolutional-neural-networkcnn.html>
+
+<https://rubber-tree.tistory.com/116>
+
+<https://halfundecided.medium.com/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-cnn-convolutional-neural-networks-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-836869f88375>
+
