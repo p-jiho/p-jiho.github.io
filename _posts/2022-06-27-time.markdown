@@ -1,12 +1,12 @@
 ---
 layout : post
 title : RBM
-date: 2022-06-22
+date: 2022-06-27
 catagories : 
   - Deep learning
 tags : 
   - Deep learning
-last_modified_at: 2022-06-24
+last_modified_at: 2022-06-27
 ---
 
 ## AE란?
