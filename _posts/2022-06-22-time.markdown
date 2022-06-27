@@ -6,7 +6,7 @@ catagories :
   - Deep learning
 tags : 
   - Deep learning
-last_modified_at: 2022-06-22
+last_modified_at: 2022-06-24
 ---
 
 ## RBM(Restricted Boltzmann Machine)
