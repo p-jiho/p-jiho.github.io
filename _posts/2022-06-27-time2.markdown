@@ -9,9 +9,9 @@ tags :
 last_modified_at: 2022-06-27
 ---
 
-# CNN
+## 1. CNN
 
-<br><br>
+<br>
 
 ## CNN이란?
 CNN은 Convolutional Neural Network의 약자이다.
@@ -98,9 +98,9 @@ Softmax layer에서는 Classification을 수행한다. 최종 결과물이 나�
 
 <br><br>
 
-# RNN
+## 2. RNN
 
-<br><br>
+<br>
 
 ## RNN이란?
 
