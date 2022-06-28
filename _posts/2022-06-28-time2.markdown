@@ -1,0 +1,49 @@
+---
+layout : post
+title : GAN
+date: 2022-06-28
+catagories : 
+  - Deep learning
+tags : 
+  - Deep learning
+last_modified_at: 2022-06-28
+---
+
+## GAN이란?
+Generator(생성모델)과 Discriminator(판별모델)을 서로 적대적으로 학습시키는 것이다.
+
+판별모델을 먼저 학습시킨다. 진짜 데이터를 진짜로, 가까 데이터를 가짜로 분류하도록 학습을 한다.
+
+생성모델은 가짜 데이터를 만들어 판별모델을 속이는 방향으로 학습을 한다. 반복을 통해 진짜로 분류할만큼의 유사한 데이터를 만들어내도록 한다.
+
+이는 경찰과 위조지폐범의 이야기로 설명이 가능하다.
+
+경찰(판별모델)은 진짜 지폐와 위조지폐를 완벽히 분류하는 것을 목적으로 한다.
+
+위조지폐범(생성모델)은 진짜와 다를 바 없는 위조지폐를 만들어내는 것을 목적으로 한다.
+
+이 과정을 통해 판별모델과 생성모델 둘 다 성능을 개선해가는 방식이다.
+
+<br><br>
+
+## GAN의 원리
+![gan](https://user-images.githubusercontent.com/76985302/176186382-ea844630-47d7-474c-a525-7a58134f86e6.PNG)
+
+Pdata(x)는 실제 데이터의 확률분포에서 샘플링한 데이터, Pz(z)는 가우시안분포를 사용하는 임의의 노이즈에서 샘플링한 데이터이다.
+
+D(x)는 분류자이므로 진짜일 확률을 의미한다. D(G(z))는 생성모델이 만든 데이터의 판단 결과이다.
+
+V(D,G)를 최대화하도록 하는 것은 판별모델의 목적이고, V(D,G)를 최소화하는 것은 생성모델의 목적이다.
+
+<br><br>
+
+---
+
+- 참고문헌
+
+<https://pseudo-lab.github.io/Tutorial-Book/chapters/GAN/Ch1-Introduction.html>
+
+<https://ebbnflow.tistory.com/167>
+
+<https://m.blog.naver.com/euleekwon/221557899873>
+
