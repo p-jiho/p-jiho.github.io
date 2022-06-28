@@ -162,3 +162,8 @@ CNN과 같은 신경망은 은닉층에서 활성화 함수를 지나면 출력�
 
 <https://halfundecided.medium.com/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-cnn-convolutional-neural-networks-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-836869f88375>
 
+<https://medium.com/humanscape-tech/rnn-recurrent-neural-network-%EC%88%9C%ED%99%98%EC%8B%A0%EA%B2%BD%EB%A7%9D-%EC%9D%84-%EC%9D%B4%ED%95%B4%ED%95%B4%EB%B3%B4%EC%9E%90-1697a5472af2>
+
+<https://ratsgo.github.io/natural%20language%20processing/2017/03/09/rnnlstm/>
+
+<https://wikidocs.net/22886>
